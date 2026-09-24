@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
@@ -38,28 +39,75 @@
 </nav>
 
 
-<div class="container my-5 text-direct">
 
-    <!-- display-5 => estilização dos titulos + tamanho (5)-->
-    <h1 class="display-5 fw-bold">
-        Café de origem,
-        Torrado na prática
-    </h1>
+<section class="bg-light">
+  <div class="container  my-5 text-direct">
+      <div class="row align-items-center">
+          
+          <div class="col-md-6">
+              <h1 class="display-5 fw-bold">
+                Café de origem, Torrado com propósito
+              </h1>
+              <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laboriosam architecto voluptatum ab, maxime inventore? Error omnis eius amet! Quo?
+              </p>
+          </div>
+
+          <div class="col-md-6 rounded-4">
+              <img src="../cafe.jpg"  class="rounded-4" alt="Descrição da imagem">
+          </div>
+
+      </div>
+  </div>
+</section>
+
+<section class="bg-ligh">
 
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aperiam modi placeat voluptatum dignissimos alias impedit ab laborum! Temporibus enim quod saepe? Consectetur, beatae nemo.
-    </p>
-</div>
+  <p class="text-center texto-laranja fw-bold">
+    QUEM JÁ EXPERIMENTOU
+  </p>
+  <h2  class="text-center">O que dizem nossos clientes</h2>
 
 
 
 
 
-
-
-
-
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <p class="display-7 text-center fst-italic">"Melhor café que ja provei"</p>
+        <p class="display-9 text-center fw-bold">Maria</p>
+        <p  class="display-8 text-center fw-light">Cliente desde 2025</p>
+  
+      </div>
+      <div class="carousel-item">
+        <p class="display-7 text-center fst-italic">"Melhor café que ja provei"</p>
+        <p class="display-9 text-center fw-bold">Claudio</p>
+        <p  class="display-8 text-center fw-light">Cliente desde 2025</p>
+      </div>
+      <div class="carousel-item">
+        <p class="display-7 text-center fst-italic">"Melhor café que ja provei"</p>
+        <p class="display-9 text-center fw-bold">Rogério</p>
+        <p  class="display-8 text-center fw-light">Cliente desde 2025</p>
+      </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
 
 
 
